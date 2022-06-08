@@ -14,7 +14,7 @@ prefix = "-"
 #use the .env feature to hide your token
 
 keep_alive()
-token = os.getenv("TOKEN")
+token = os.getenv("ODU4ODAyNTEwNTQ5NjE0NjUy.YeKWuQ.OiKpi5AlesKxfwhcpUSVWMoFtuQ")
 
 #---------------#
 
@@ -25,7 +25,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.command()
 async def help(ctx):
-  embed = discord.Embed(title="Help AutoOwO", color=420699, description=f"**{prefix}autoOwO**\nowoh, owo sell all, owo flip 500 and owo cash 50 seconds.\n\n**{prefix}stopautoOwO**\nstops autoOwO.")
+  embed = discord.Embed(title="Help AutoOwO", color=420699, description=f"**{prefix}autoOwO**\nowoh, owo sell all, owoh and owo cash 50 seconds.\n\n**{prefix}stopautoOwO**\nstops autoOwO.")
   embed.set_thumbnail(url="https://media.discordapp.net/attachments/819971643157118987/845166279266271282/unknown-7.jpg")
   await ctx.send(embed=embed)
 
