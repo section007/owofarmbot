@@ -25,7 +25,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.command()
 async def help(ctx):
-  embed = discord.Embed(title="Help AutoOwO", color=420699, description=f"**{prefix}autoOwO**\nowoh, owo sell all, owoh and owo cash 50 seconds.\n\n**{prefix}stopautoOwO**\nstops autoOwO.")
+  embed = discord.Embed(title="Help AutoOwO", color=420699, description=f"**{prefix}autoOwO**\nowoh, owo sell all, owo flip 500 and owo cash 50 seconds.\n\n**{prefix}stopautoOwO**\nstops autoOwO.")
   embed.set_thumbnail(url="https://media.discordapp.net/attachments/819971643157118987/845166279266271282/unknown-7.jpg")
   await ctx.send(embed=embed)
 
@@ -43,8 +43,8 @@ async def autoOwO(ctx):
 			await asyncio.sleep(15)
 			await ctx.send('owo sell all')
 			print(f"{Fore.GREEN}succefully sell")
-			await ctx.send('owoh')
-			print(f"{Fore.GREEN}succefully owoh")
+			await ctx.send('owo flip 500')
+			print(f"{Fore.GREEN}succefully flip")
 			await asyncio.sleep(10)
 			await ctx.send('owo cash')
 			print(f"{Fore.GREEN}succefully cash")
